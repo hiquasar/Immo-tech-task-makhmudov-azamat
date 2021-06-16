@@ -1,0 +1,144 @@
+.footer {
+    background-color: rgb(54, 54, 54);
+    color: rgb(140, 142, 139);
+    font-size: 14px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 20px 0;
+}
+
+.footerLeft {
+    flex: 2;
+}
+
+.menu {
+    flex: 6;
+
+    display: flex;
+}
+
+.menu ul {
+    padding: 0 15px;
+}
+
+.menuLeft ul {
+    border-right: 1px solid rgba(140, 142, 139, 0.603);
+}
+
+.menu li {
+    margin-bottom: 10px;
+}
+
+.footerRight {
+    flex: 2;
+}
+
+.copyright, .phones {
+    margin-bottom: 15px;
+}
+
+.phones {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer a {
+    color: rgb(140, 142, 139);
+    text-decoration: none;
+}
+
+.socials, .inputField {
+    margin-bottom: 15px;
+}
+
+.socialsLink {
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    background-color: rgb(43, 43, 43);
+    border-radius: 4px;
+    margin-right: 3px;
+    padding: 2px;
+}
+
+.socialsLink i {
+    color: #FFE00E;
+}
+
+.inputField {
+    display: flex;
+}
+
+.inputField input {
+    font-family: 'PT Sans', sans-serif;
+    display: block;
+    height: 100%;
+    border: none;
+    padding: 4px 0 4px 10px;
+    outline: none;
+
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.inputField button {
+    box-sizing: border-box;
+    border: none;
+    color: rgb(197, 197, 197);
+    background-color: #fff;
+
+    padding: 4px 0 4px 10px;
+
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+
+    cursor: pointer;
+}
+
+.authors {
+    display: flex;
+}
+
+.authors span {
+    margin-right: 5px;
+}
+
+
+/*MEDIA QUERIES*/
+
+
+@media (max-width: 700px) {
+
+    .footer {
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width: 550px) {
+
+    .wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerLeft, .menu {
+        margin-bottom: 30px;
+    }
+
+    .menu ul {
+        padding: 0;
+    }
+
+    .menu div ul {
+        padding-right: 15px;
+    }
+    .menu div + div ul {
+        padding-left: 15px;
+    }
+
+}

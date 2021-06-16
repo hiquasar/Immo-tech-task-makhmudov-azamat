@@ -1,0 +1,47 @@
+.wrapper {
+    background-color: rgb(249, 249, 249);
+    padding: 25px 0 8px;
+    border-bottom: 1px dotted #eed00e;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigationItem {
+    margin-right: 10px;
+}
+
+.navigationItem i {
+    font-size: 11px;
+    color: rgb(126, 126, 126);
+}
+
+.navigationLink {
+    color: rgb(126, 126, 126);
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.mainHeaderTitle {
+    color: #333;
+    font-weight: 400;
+    font-size: 34px;
+    padding-bottom: 16px;
+}
+
+
+/*MEDIA QUERIES*/
+
+
+@media (max-width: 900px) {
+    .mainHeaderTitle {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 500px) {
+    .mainHeaderTitle {
+        font-size: 18px;
+    }
+}

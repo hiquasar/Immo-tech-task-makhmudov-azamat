@@ -1,0 +1,136 @@
+header {
+    box-shadow: 0px 2px 10px rgba(128, 128, 128, 0.788);
+    position: relative;
+}
+
+.headerTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 30px 35px;
+    
+}
+
+
+.logo {
+    max-width: 250px;
+}
+
+.logo img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.logoImg img {
+    display: block;
+    margin-right: 10px;
+}
+
+.contact {
+    display: flex;
+    align-items: flex-end;
+}
+
+.contactPhone {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.contactTime {
+    font-size: 10px;
+    font-weight: 700;
+    display: inline-block;
+    margin-right: 15px;
+    color: #333;
+}
+
+.headerBtnLink {
+    border: 1px solid #D7D7D7;
+    display: block;
+    font-size: 16px;
+    padding: 8px 13px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.headerTopWrapper {
+    border-bottom: 2px solid #d7d7d736;
+}
+
+
+.headerNav {
+    padding: 15px 30px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+}
+
+.menuItem {
+    margin-right: 17px;
+}
+
+.menuItem a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+@media (max-width: 950px) {
+    .headerTop {
+        flex-direction: column;
+    }
+
+    .logo, .contact {
+        margin-bottom: 20px;
+    }
+
+    .menu {
+        justify-content: space-between;
+        padding: 0 100px;
+    }
+}
+
+@media (max-width: 640px) {
+    .menu {
+        padding: 0 50px;
+    }
+
+    .contactTime {
+        margin-right: 15px;
+    }
+}
+
+@media (max-width: 520px) {
+    .menu {
+        padding: 0;
+    }
+}
+
+@media (max-width: 415px) {
+    .menu {
+        padding: 0;
+    }
+
+    .menuItem {
+        font-size: 10px;
+    }
+
+    .contactPhone {
+        font-size: 12px;
+    }
+
+    .contactTime {
+        font-size: 8px;
+    }
+}

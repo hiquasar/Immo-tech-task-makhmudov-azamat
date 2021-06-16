@@ -1,0 +1,30 @@
+main {
+    background-color: rgb(243, 243, 243);
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.promoBtn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.promoInfo {
+    display: flex;
+    align-items: center;
+}
+
+.promoInfo img {
+    margin-right: 30px;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    border-left: 1px solid rgb(246, 246, 246);
+    border-right: 1px solid rgb(246, 246, 246);
+}
